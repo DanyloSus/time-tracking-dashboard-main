@@ -4,4 +4,87 @@
 @tailwind utilities;
 :root {
   font-family: "Rubik", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  main > section:nth-child(1) {
+    animation: left 1s ease-in-out 0.75s both;
+  }
+  main > section:nth-child(2) {
+    animation: left 1s ease-in-out 1s both;
+  }
+  main > section:nth-child(3) {
+    animation: left 1s ease-in-out 1.25s both;
+  }
+  main > section:nth-child(4) {
+    animation: left 1s ease-in-out 1.5s both;
+  }
+  main > section:nth-child(5) {
+    animation: left 1s ease-in-out 1.75s both;
+  }
+  main > section:nth-child(6) {
+    animation: left 1s ease-in-out 2s both;
+  }
+  main > section:nth-child(7) {
+    animation: left 1s ease-in-out 2.25s both;
+  }
+  main > section:nth-child(8) {
+    animation: left 1s ease-in-out 2.5s both;
+  }
+  main > section:nth-child(9) {
+    animation: left 1s ease-in-out 2.75s both;
+  }
+}
+@keyframes left {
+  0% {
+    position: relative;
+    left: -50px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main > section:nth-child(1) {
+    animation: bottom 1s ease-in-out 0.75s both;
+  }
+  main > section:nth-child(2) {
+    animation: bottom 1s ease-in-out 1s both;
+  }
+  main > section:nth-child(3) {
+    animation: bottom 1s ease-in-out 1.25s both;
+  }
+  main > section:nth-child(4) {
+    animation: bottom 1s ease-in-out 1.5s both;
+  }
+  main > section:nth-child(5) {
+    animation: bottom 1s ease-in-out 1.75s both;
+  }
+  main > section:nth-child(6) {
+    animation: bottom 1s ease-in-out 2s both;
+  }
+  main > section:nth-child(7) {
+    animation: bottom 1s ease-in-out 2.25s both;
+  }
+  main > section:nth-child(8) {
+    animation: bottom 1s ease-in-out 2.5s both;
+  }
+  main > section:nth-child(9) {
+    animation: bottom 1s ease-in-out 2.75s both;
+  }
+}
+@keyframes bottom {
+  0% {
+    position: relative;
+    bottom: -50px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    bottom: 0px;
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
