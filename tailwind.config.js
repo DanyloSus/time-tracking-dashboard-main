@@ -18,6 +18,9 @@ export default {
         "desaturated-blue": "hsl(235, 45%, 61%)",
         "pale-blue": "hsl(236, 100%, 87%)",
       },
+      screens: {
+        lg: { max: "1024px" },
+      },
     },
   },
   plugins: [],
